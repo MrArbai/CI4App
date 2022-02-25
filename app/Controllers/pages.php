@@ -9,17 +9,20 @@ class pages extends BaseController
         $data = [
             'title' => 'home | Belajar CI4'
         ];
-        echo view('layout/header', $data);
-        echo view('pages/home');
-        echo view('layout/footer');
+        return view('pages/home', $data);
     }
     public function about()
     {
         $data = [
             'title' => 'home | About Me'
         ];
-        echo view('layout/header', $data);
-        echo view('pages/about');
-        echo view('layout/footer');
+        echo view('pages/about', $data);
+    }
+    public function contact()
+    {
+        $data = [
+            'title' => 'home | About Me'
+        ];
+        echo view('pages/contact', $data);
     }
 }
