@@ -14,15 +14,27 @@ class pages extends BaseController
     public function about()
     {
         $data = [
-            'title' => 'home | About Me'
+            'title' => 'About Me'
         ];
-        echo view('pages/about', $data);
+        return view('pages/about', $data);
     }
     public function contact()
     {
         $data = [
-            'title' => 'home | About Me'
+            'title' => 'Contact us',
+            'Alamat' => [
+                [
+                    'tipe' => 'Rumah',
+                    'Alamat' => 'Jl.Dalang 1',
+                    'Kota' => 'Bekasi'
+                ],
+                [
+                    'tipe' => 'Kantor',
+                    'Alamat' => 'Jl.plam raya',
+                    'Kota' => 'Tembilahan'
+                ]
+            ]
         ];
-        echo view('pages/contact', $data);
+        return view('pages/contact', $data);
     }
 }
