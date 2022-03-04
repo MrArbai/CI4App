@@ -19,7 +19,7 @@ class KomikModel extends Model
 
     public function getKomik($slug = false)
     {
-        if ($slug ==false) {
+        if ($slug == false) {
             return $this->findall();
         }
 
