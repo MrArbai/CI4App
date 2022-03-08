@@ -9,13 +9,22 @@ class KomikModel extends Model
     protected $table      = 'Komik';
     protected $primaryKey = 'id';
 
-    protected $returnType     = 'array';
-    protected $useSoftDeletes = false;
+    protected $useAutoIncrement = true;
 
-    protected $useTimestamps = true;
+    protected $returnType     = 'array';
+    protected $useSoftDeletes = true;
+
+    protected $allowedFields = ['Judul','Slug','Penulis','Penerbit','Sampul'];
+
+    protected $useTimestamps = false;
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
     protected $deletedField  = 'deleted_at';
+
+    protected $validationRules    = [];
+    protected $validationMessages = [];
+    protected $skipValidation     = false;
+
 
     public function getKomik($slug = false)
     {

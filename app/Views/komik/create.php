@@ -6,53 +6,33 @@
             <h2 my-3>
                 Tambah Data Komik
             </h2>
-            <form>
+            <form action="/komik/save" method="post">
+                <?= csrf_field(); ?>
                 <div class="row mb-3">
-                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                    <label for="Judul" class="col-sm-2 col-form-label">Judul</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control" id="inputEmail3">
+                        <input type="text" class="form-control" id="judul" name = "judul" autofocus>
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                    <label for="penulis" class="col-sm-2 col-form-label">penulis</label>
                     <div class="col-sm-10">
-                        <input type="password" class="form-control" id="inputPassword3">
+                        <input type="text" class="form-control" id="penulis" name = "penulis">
                     </div>
                 </div>
-                <fieldset class="row mb-3">
-                    <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                    <div class="col-sm-10">
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                            <label class="form-check-label" for="gridRadios1">
-                                First radio
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                            <label class="form-check-label" for="gridRadios2">
-                                Second radio
-                            </label>
-                        </div>
-                        <div class="form-check disabled">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                            <label class="form-check-label" for="gridRadios3">
-                                Third disabled radio
-                            </label>
-                        </div>
-                    </div>
-                </fieldset>
                 <div class="row mb-3">
-                    <div class="col-sm-10 offset-sm-2">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" id="gridCheck1">
-                            <label class="form-check-label" for="gridCheck1">
-                                Example checkbox
-                            </label>
-                        </div>
+                    <label for="penerbit" class="col-sm-2 col-form-label">penerbit</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="penerbit" name = "penerbit">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <div class="row mb-3">
+                    <label for="sampul" class="col-sm-2 col-form-label">sampul</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="sampul" name = "sampul">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Simpan</button>
             </form>
         </div>
     </div>
