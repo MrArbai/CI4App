@@ -40,14 +40,30 @@ class komik extends BaseController
 
     public function Create()
     {
+       
         $data = [
-            'title' => 'Tambah Data Komik'
+            'title' => 'Tambah Data Komik',
+            'validation' => \Config\Services::validation()
         ];
         return view('komik/create', $data);
     }
 
     public function Save()
     {
+        if (!$this->validate([
+            'judul'=>[
+                'rules' => 'required|is_unique[komik.Judul]',
+                'errors' => [
+                    'required' => '{field} Komik harus Di Isi',
+                    'is_unique' => '{field} Komik Sudah Ada'
+                ]
+            ] 
+        ])){
+            $validation =  \Config\Services::validation();
+            return redirect()->to('/komik/create')->withinput()->with('validation',$validation);
+        }
+
+
         // dd($this->request->getvar());
         $slug = url_title($this->request->getvar('judul'),'-',true);
         $this->KomikModel->save([
