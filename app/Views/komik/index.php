@@ -4,12 +4,12 @@
   <div class="row">
     <div class="col">
       <h1>Daftar Komik</h1>
-                  <?php if (session()->getflashdata('pesan')) : ?>
-            <div class="alert alert-success" role="alert">
-                <?= session()->getflashdata('pesan'); ?>
-            </div>
-            <?php endif; ?>
-      <a href="/komik/create" >Tambah</a>
+      <?php if (session()->getflashdata('pesan')) : ?>
+        <div class="alert alert-success" role="alert">
+          <?= session()->getflashdata('pesan'); ?>
+        </div>
+      <?php endif; ?>
+      <a href="/komik/create">Tambah</a>
       <table class="table">
         <thead>
           <tr>

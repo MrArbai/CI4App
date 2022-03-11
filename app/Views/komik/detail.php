@@ -20,9 +20,9 @@
                             <form action="/komik/<?= $komik['id']; ?>" method="post" class="d-inline">
                                 <?= csrf_field(); ?>
                                 <input type="hidden" name="_method" value="DELETE">
-                                <button type="submit" class= "btn btn-danger" onclick="return confirm('Apakah Anda Yakin?');">Delete</button>
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Apakah Anda Yakin?');">Delete</button>
                             </form>
-                           
+
                             <br><br>
                             <a href="/komik">kembali</a>
                         </div>
