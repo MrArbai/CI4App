@@ -56,13 +56,32 @@ class komik extends BaseController
                     'required' => '{field} Komik harus Di Isi',
                     'is_unique' => '{field} Komik Sudah Ada'
                 ]
-            ]
+                ],
+                  'sampul' => [
+                    'rules' => 'max_size[sampul,2048]|is_image[sampul]|mime_in[sampul,image/png,image/jpg,image/jpeg]',
+                    'errors' => [
+                        'max_size' => 'Ukuran Gambar Terlalu besar',
+                        'is_image' => 'Yang Anda Masukan Bukan Gambar',
+                        'mime_in' => 'Yang Anda Masukan Bukan Gambar'
+                    ]
+                ]
         ])) {
-            $validation =  \Config\Services::validation();
-            return redirect()->to('/komik/create')->withinput()->with('validation', $validation);
+            // $validation =  \Config\Services::validation();
+            // return redirect()->to('/komik/create')->withinput()->with('validation', $validation);
+            return redirect()->to('/komik/create')->withinput();
         }
 
 
+        $fileSampul = $this->request->getfile('sampul');
+        if ($fileSampul->getError() == 4){
+            $Nama = 'default.jpg';
+        } else {
+            $fileSampul->move('img');
+            $Nama = $fileSampul->getname();
+            
+        }
+
+        //  dd($fileSampul);
         // dd($this->request->getvar());
         $slug = url_title($this->request->getvar('judul'), '-', true);
         $this->KomikModel->save([
@@ -70,7 +89,7 @@ class komik extends BaseController
             'Slug' => $slug,
             'Penulis' => $this->request->getvar('penulis'),
             'Penerbit' => $this->request->getvar('penerbit'),
-            'Sampul' => $this->request->getvar('sampul')
+            'Sampul' => $Nama
         ]);
 
         session()->setflashdata('pesan', 'Data berhasil Di Simpan');
@@ -110,10 +129,14 @@ class komik extends BaseController
                     'required' => '{field} Komik harus Di Isi',
                     'is_unique' => '{field} Komik Sudah Ada'
                 ]
-            ]
+                ],
+                'sampul' => [
+                    'errors' => 'uploaded[Sampul]'
+                ]
         ])) {
-            $validation =  \Config\Services::validation();
-            return redirect()->to('/komik/create')->withinput()->with('validation', $validation);
+            // $validation =  \Config\Services::validation();
+            // return redirect()->to('/komik/create')->withinput()->with('validation', $validation);
+            return redirect()->to('/komik/create')->withinput();
         }
 
         $slug = url_title($this->request->getvar('judul'), '-', true);
