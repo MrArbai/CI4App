@@ -32,7 +32,7 @@
 
     <script>
         function previewimg(){
-
+            const a = document
             const sampul = document.queryselector('#sampul');
             const sampullebel = document.queryselector('.custom-file-input');
             const imgpreview = document.queryselector('.img-preview');

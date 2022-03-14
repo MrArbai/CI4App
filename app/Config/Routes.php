@@ -33,7 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 
 
-$routes->get('/', 'Pages::index');
+$routes->get('/', 'Forpolio::index');
 $routes->get('/komik/create','komik::create');
 $routes->delete('/komik/(:num)','komik::delete/$1');
 $routes->get('/komik/detail/(:any)', 'komik::detail/$1');
