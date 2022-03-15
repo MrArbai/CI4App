@@ -11,10 +11,15 @@
 						<div class="entry-meta"> 
 							<span class="posted-on"><time class="entry-date published" date="2013-09-27">September 27, 2013</time></span>			
 						</div>
-						<h1 class="entry-title"><a href="single.html" rel="bookmark">Hello world!</a></h1>
+						<h1 class="entry-title"><a href="/Forpolio/single" rel="bookmark">Hello world!</a></h1>
 					</header>
 					<div class="entry-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, molestias, architecto, adipisci, numquam dolor iusto eos reprehenderit placeat quam debitis quas magni eveniet. Saepe, nam, iste consectetur quae necessitatibus dolores provident veritatis possimus rerum facilis quia dicta itaque sapiente iusto natus quidem magni quibusdam. Explicabo nesciunt vel rem obcaecati reprehenderit eveniet culpa repudiandae. Distinctio, quia, provident illum necessitatibus repellendus rem voluptates exercitationem numquam inventore itaque atque sint nihil eveniet consequuntur eius! Laborum, at sit animi quae quidem ex tempora facilis.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, molestias, architecto, adipisci, 
+							numquam dolor iusto eos reprehenderit placeat quam debitis quas magni eveniet. Saepe, nam, iste 
+							consectetur quae necessitatibus dolores provident veritatis possimus rerum facilis quia dicta itaque
+							 sapiente iusto natus quidem magni quibusdam. Explicabo nesciunt vel rem obcaecati reprehenderit eveniet 
+							 culpa repudiandae. Distinctio, quia, provident illum necessitatibus repellendus rem voluptates exercitationem
+							  numquam inventore itaque atque sint nihil eveniet consequuntur eius! Laborum, at sit animi quae quidem ex tempora facilis.</p>
 					</div>
 				</article>
  				
@@ -23,11 +28,17 @@
  						<div class="entry-meta"> 
  							<span class="posted-on"><time class="entry-date published" date="2013-06-17">June 17, 2013</time></span>			
  						</div> 
- 						<h1 class="entry-title"><a href="single.html" rel="bookmark">Vivamus Lacus Mauris</a></h1>
+ 						<h1 class="entry-title"><a href="/Forpolio/single" rel="bookmark">Vivamus Lacus Mauris</a></h1>
 					</header> 
 					<div class="entry-content"> 
-						<p><img alt="" src="assets/images/mac.jpg"></p>
-						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. <a href="single.html" class="more-link">Continue reading&#8230;</a></p>
+						<p><img alt="" src="/images/mac.jpg"></p>
+						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis.
+							 Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero,
+							  ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis 
+							  diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum
+							  . Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac,
+							   vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, 
+							   condimentum at risus. <a href="/Forpolio/single" class="more-link">Continue reading&#8230;</a></p>
 					</div> 
 				</article><!-- #post-## -->
 											
@@ -36,7 +47,7 @@
  						<div class="entry-meta"> 
  							<span class="posted-on"><time class="entry-date published" date="2013-06-17">June 17, 2013</time></span>			
  						</div> 
- 						<h1 class="entry-title"><a href="single.html" rel="bookmark">Vivamus Lacus Mauris</a></h1>
+ 						<h1 class="entry-title"><a href="/Forpolio/single" rel="bookmark">Vivamus Lacus Mauris</a></h1>
 					</header> 
 					<div class="entry-content"> 
 						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus.</p>
@@ -48,10 +59,10 @@
 						<div class="entry-meta"> 
 							<span class="posted-on"><time class="entry-date published" date="2013-04-04">April 4, 2013</time></span>			
 						</div>
-						<h1 class="entry-title"><a href="single.html" rel="bookmark">Maecenas Quisque Suspendisse Lorem</a></h1>
+						<h1 class="entry-title"><a href="/Forpolio/single" rel="bookmark">Maecenas Quisque Suspendisse Lorem</a></h1>
 					</header>
 					<div class="entry-content">
-						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. <a href="single.html" class="more-link">Continue reading&#8230;</a></p>
+						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. <a href="/Forpolio/single" class="more-link">Continue reading&#8230;</a></p>
 					</div>
  				</article><!-- #post-## -->
 											
@@ -60,10 +71,10 @@
  						<div class="entry-meta"> 
  							<span class="posted-on"><time class="entry-date published" date="2013-03-20">March 20, 2013</time></span>			
  						</div>
-						<h1 class="entry-title"><a href="single.html" rel="bookmark">Pellentesque Eget Convallis</a></h1>
+						<h1 class="entry-title"><a href="/Forpolio/single" rel="bookmark">Pellentesque Eget Convallis</a></h1>
 					</header>
 					<div class="entry-content">
-						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. <a href="single.html" class="more-link">Continue reading&#8230;</a></p>
+						<p>Mauris eget quam orci. Quisque porta varius dui, quis posuere nibh mollis quis. Mauris commodo rhoncus porttitor. Maecenas et euismod elit. Nulla facilisi. Vivamus lacus libero, ultrices non ullamcorper ac, tempus sit amet enim. Suspendisse at semper ipsum. Suspendisse sagittis diam a massa viverra sollicitudin. Vivamus sagittis est eu diam fringilla nec tristique metus vestibulum. Donec magna purus, pellentesque vel lobortis ut, convallis id augue. Sed odio magna, pellentesque eget convallis ac, vehicula vel arcu. Sed eu scelerisque dui. Sed eu arcu at nibh hendrerit viverra. Vivamus lacus augue, sodales id cursus in, condimentum at risus. <a href="/Forpolio/single" class="more-link">Continue reading&#8230;</a></p>
 					</div>
 				</article><!-- #post-## --> 
 			</div> 
