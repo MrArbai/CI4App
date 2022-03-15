@@ -124,7 +124,7 @@
 
         </div> <!-- /section -->
 
-        <div class="row section topspace">
+        <!-- <div class="row section topspace">
             <div class="panel panel-cta">
                 <div class="panel-body">
                     <div class="col-lg-8">
@@ -136,13 +136,13 @@
                     </div>
                 </div>
             </div>
-        </div> <!-- /section -->
+        </div> /section -->
 
         <div class="row section clients topspace">
             <h2 class="section-title"><span>Clients</span></h2>
             <div class="col-lg-12">
                 <p>
-                    <img src="assets/images/sample_clients.png" alt="">
+                    <img src="/images/sample_clients.png" alt="">
                 </p>
             </div>
         </div> <!-- /section -->

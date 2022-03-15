@@ -5,7 +5,7 @@
 	<div class="container">
 
 		<div class="row topspace">
-			
+
 			<!-- Sidebar -->
 			<aside class="col-md-4 sidebar sidebar-left">
 
@@ -29,7 +29,7 @@
 					</div>
 				</div>
 
-			</aside>			<!-- /Sidebar -->
+			</aside> <!-- /Sidebar -->
 
 			<!-- Article main content -->
 			<article class="col-sm-8 maincontent">
@@ -54,10 +54,10 @@
 				<p>Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?</p>
 			</article>
 			<!-- /Article -->
-			
+
 
 		</div>
-	</div>	<!-- /container -->
-	
+	</div> <!-- /container -->
+
 </main>
 <?= $this->endsection(); ?>
