@@ -2,9 +2,9 @@
     <div id="head" class="parallax" parallax-speed="2">
         <h1 id="logo" class="text-center">
             <img class="img-circle" src="/images/guy.jpg" alt="">
-            <span class="title">Anthony Russel</span>
+            <span class="title">ARBA'I</span>
             <span class="tagline">A mystery person<br>
-                <a href="">anthony.russel42@example.com</a></span>
+                <a href="">MrArbai4@gmail.com</a></span>
         </h1>
     </div>
 
@@ -18,8 +18,8 @@
             <div class="navbar-collapse collapse">
 
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="/Forpolio/about">About</a></li>
+                    <li class="nav-link active"><a href="/">Home</a></li>
+                    <li class="nav-link active"><a href="/Forpolio/about">About</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
                         <ul class="dropdown-menu">
