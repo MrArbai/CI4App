@@ -108,8 +108,7 @@
 							<div class="nav-next">Newer Comments &rarr;</div>
 						</div>
 					</nav><!-- #comment-nav-below -->
-
-
+					
 					<div id="respond">
 						<h3 id="reply-title">Leave a Reply</h3>
 						<form action="" method="post" id="commentform" class="">

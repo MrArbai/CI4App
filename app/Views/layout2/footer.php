@@ -4,8 +4,8 @@
             <div class="col-md-3 widget">
                 <h3 class="widget-title">Contact</h3>
                 <div class="widget-body">
-                    <p>+234 23 9873237<br>
-                        <a href="mailto:#">some.email@somewhere.com</a><br>
+                    <p>+62 812 684 106 54<br>
+                        <a href="mailto:#">MrArbai4@gmail.com</a><br>
                         <br>
                         234 Hidden Pond Road, Ashland City, TN 37015
                     </p>
@@ -17,7 +17,7 @@
                 <div class="widget-body">
                     <p class="follow-me-icons">
                         <a href=""><i class="fa fa-twitter fa-2"></i></a>
-                        <a href=""><i class="fa fa-dribbble fa-2"></i></a>
+                        <a href=""><i class="fa fa-instagram fa-2"></i></a>
                         <a href="https://github.com/MrArbai"><i class="fa fa-github fa-2"></i></a>
                         <a href=""><i class="fa fa-facebook fa-2"></i></a>
                     </p>
@@ -35,8 +35,8 @@
             <div class="col-md-3 widget">
                 <h3 class="widget-title">Form widget</h3>
                 <div class="widget-body">
-                    <p>+234 23 9873237<br>
-                        <a href="mailto:#">some.email@somewhere.com</a><br>
+                    <p>+62 812 684 106 54<br>
+                        <a href="mailto:#">MrArbai4@gmail.com</a><br>
                         <br>
                         234 Hidden Pond Road, Ashland City, TN 37015
                     </p>
