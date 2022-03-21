@@ -1,0 +1,170 @@
+body{
+margin:0 auto;
+padding:0;
+font-family:Tahoma;
+font-size:12px;
+background-repeat:repeat-y;
+background-image:url(../images/bg-content.jpg);
+background-color:#F6F6F6;
+background-position:center;
+background-attachment:fixed;
+}
+#menu-atas{
+	margin:0 auto;
+	position:fixed;
+	padding-top:0px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color:#F6F6F6;
+	background-repeat:repeat-x;
+	border-bottom:5px solid #A1C442;
+	width:100%;
+	color:#000;
+}
+#head{
+width:850px;
+}
+.logo{
+font-size:16px;
+width:250px;
+padding-top:15px;
+float:left;
+}
+.logo span{
+font-size:11px;
+width:250px;
+float:left;
+}
+#atas{
+width:850px;
+margin:0 auto;
+}
+#nav ul{
+	display:block;
+	cursor:pointer;
+	padding-left:0px;
+	margin: 0px;
+}
+#nav li{
+	background-color:#FFFFFF;
+	border:1px solid #A1C442;
+	margin-top:20px;
+	margin-left:2px;
+	margin-bottom:-1px;
+	float:left;
+	list-style-type:none;
+	padding: 8px 8px 8px 8px;
+	-moz-border-radius: 5px 5px 0px 0px;
+	-khtml-border-radius: 5px 5px 0px 0px;
+	-webkit-border-radius: 5px 5px 0px 0px;
+}
+#nav li a{
+	text-decoration:none;
+	color:#000;
+}
+#nav li:hover{
+	background-color:#A1C442;
+	text-decoration:none;
+	color:#FFFFFF
+}
+#isi{
+width:850px;
+margin:0 auto;
+padding-top:70px;
+padding-bottom:30px;
+}
+
+.treeview ul{ /*CSS for Simple Tree Menu*/
+margin-left: 20px;
+padding: 0;
+}
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+
+.treeview li{ /*Style for LI elements in general (excludes an LI that contains sub lists)*/
+list-style-type:none;
+padding-left: 20px;
+}
+
+.treeview li.submenu{ /* Style for LI that contains sub lists (other ULs). */
+cursor: hand !important;
+cursor: pointer !important;
+}
+
+.treeview li.submenu ul{ /*Style for ULs that are children of LIs (submenu) */
+display: none; /*Hide them by default. Don't delete. */
+}
+
+.treeview .submenu ul li{ /*Style for LIs of ULs that are children of LIs (submenu) */
+cursor: default;
+}
+
+.input{
+-moz-border-radius:4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+font-size:12px;
+background-color:#FFFFFF;
+border:1pt solid #999999;
+padding:5px;
+}
+.input:hover{
+-moz-border-radius:4px;
+-khtml-border-radius: 4px;
+-webkit-border-radius: 4px;
+font-size:12px;
+background-color:#A1C442;
+border:1pt solid #999999;
+color:#FFFFFF;
+padding:5px;
+cursor:pointer;
+}
+
+h1{
+font-size:16px;
+color:#A1C442;
+}
+h2{
+font-size:14px;
+color:#666666;
+padding:0px;
+margin:0px;
+}
+
+.tabel{
+border: 1pt ridge #DDDDDD;
+}
+
+#isi a{
+color:#333333;
+text-decoration:none;
+}
+#isi a:hover{
+color:#000000;
+text-decoration:underline;
+}
+
+#artikel{
+padding:10px;
+background-color:#FAFAFA;
+border:1px solid #CCCCCC;
+-moz-border-radius: 5px;
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+color:#666666;
+}
+#komentar{
+color:#666666;
+padding:10px;
+margin: 5px 0px 5px 30px;
+background-color:#F7F7F7;
+border:1px solid #CCCCCC;
+-moz-border-radius: 5px;
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+#bar_artikel{
+padding:5px;
+border:1px solid #CCCCCC;
+background-color:#D8E8F7;
+}

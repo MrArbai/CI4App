@@ -1,0 +1,78 @@
+.jquerycssmenu {
+	margin-top:6px;
+	margin-left:10px;
+}
+.jquerycssmenu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.jquerycssmenu ul li {
+	position: relative;
+	display: inline;
+	float: left;
+}
+.jquerycssmenu ul li a {
+	display: block;
+	padding: 7px;
+	text-decoration: none;
+	color: #FFFFFF;
+	margin-left:-30px;
+}
+.jquerycssmenu ul li a:hover {
+	background: #6297BC;
+	color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.jquerycssmenu ul li ul {
+	position: absolute;
+	visibility: hidden;
+	color: #FFFFFF;
+	padding-top:10px;
+	margin-left:0px;
+	margin-top:-8px;
+}
+.jquerycssmenu ul li ul li {
+	display:block;
+	float: none;
+	color: #FFFFFF;
+	background-color:#262726;
+	-moz-border-radius: 0px;
+	-khtml-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	margin-top:-2px;
+}
+.jquerycssmenu ul li ul li ul {
+	top: 0;
+	color: #FFFFFF;
+}
+.jquerycssmenu ul li ul li a {
+	width: 170px;
+	color: black;
+	color: #FFFFFF;
+}
+.jquerycssmenu ul li ul li a:hover {
+	background: #6297BC;
+	color: #FFFFFF;
+}
+.downarrowclass {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+}
+.rightarrowclass {
+	position: absolute;
+	top: 8px;
+	right: 5px;
+}
+*:first-child+html .jquerycssmenu {
+	height: 1%;
+}
+* html .jquerycssmenu{
+	height: 1%;
+}
+* html .jquerycssmenu ul li ul li a {
+	display: inline-block;
+}

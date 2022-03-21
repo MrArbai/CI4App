@@ -7,33 +7,35 @@
 
         <div class="row section topspace">
             <div class="col-md-12">
-                <p class="lead text-center text-muted">Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you <a href="/Forpolio/about">measure</a> yourself by the people who measure themselves by you. it only took me <a href="/Forpolio/sidebar_right">six days</a>. </p>
+                <p class="lead text-center text-muted">Let me tell you something my friend. hope is a dangerous thing. hope can drive a man insane. you measure yourself by the people who measure themselves by you. </p>
+                <p class="lead text-center text-muted">you make a choice and don't look back <br> Han Lue </p>
+
             </div>
         </div> <!-- / section -->
 
         <div class="row section featured topspace">
             <h2 class="section-title"><span>Services</span></h2>
             <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <h3 class="text-center">Custom website design</h3>
+                <div class="col-sm-6 col-md-6">
+                    <h3 class="text-center">Create website</h3>
                     <p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
                     <p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <!-- <div class="col-sm-6 col-md-3">
                     <h3 class="text-center">Wordpress integration</h3>
                     <p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
                     <p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-                </div>
-                <div class="col-sm-6 col-md-3">
+                </div> -->
+                <div class="col-sm-6 col-md-6">
                     <h3 class="text-center">Application development</h3>
                     <p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
                     <p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
                 </div>
-                <div class="col-sm-6 col-md-3">
+                <!-- <div class="col-sm-6 col-md-3">
                     <h3 class="text-center">SEO &amp; SEM services</h3>
                     <p>I don't think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn't eat for three weeks. i once heard a wise man say there are no perfect men.</p>
                     <p class="text-center"><a href="" class="btn btn-action">Read more</a></p>
-                </div>
+                </div> -->
             </div>
         </div> <!-- / section -->
 
@@ -82,7 +84,7 @@
                     <p></p>
                 </div>
 
-                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                     <a class="thumbnail" href="sidebar-right.html">
                         <span class="img">
                             <img src="/images/s1.jpg" alt="">
@@ -119,7 +121,7 @@
                     <span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
                     <h4></h4>
                     <p></p>
-                </div>
+                </div> -->
             </div>
 
         </div> <!-- /section -->

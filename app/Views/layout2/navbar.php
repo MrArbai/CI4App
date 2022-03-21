@@ -1,8 +1,8 @@
 <header id="header">
     <div id="head" class="parallax" parallax-speed="2">
         <h1 id="logo" class="text-center">
-            <img class="img-circle" src="/images/guy.jpg" alt="">
-            <span class="title">ARBA'I</span>
+            <img class="img-circle" src="/images/03.jpg" alt="">
+            <span class="title">Arba'i</span>
             <span class="tagline">A mystery person<br>
                 <a href="">MrArbai4@gmail.com</a></span>
         </h1>

@@ -31,7 +31,15 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
                 </div>
             </div>
-
+<!-- <iframe
+  width="600"
+  height="450"
+  style="border:0"
+  loading="lazy"
+  allowfullscreen
+  src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+    &q=Space+Needle,Seattle+WA">
+</iframe> -->
             <div class="col-md-3 widget">
                 <h3 class="widget-title">Form widget</h3>
                 <div class="widget-body">
