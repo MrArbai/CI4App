@@ -26,6 +26,7 @@
                             <li><a href="/Forpolio/sidebar_left">Left Sidebar</a></li>
                             <li><a href="/Forpolio/sidebar_right">Right Sidebar</a></li>
                             <li><a href="/Forpolio/single">Blog Post</a></li>
+                            <li><a href="/pages/index">Komik</a></li>
                         </ul>
                     </li>
                     <li><a href="/Forpolio/blog">Blog</a></li>
