@@ -10,9 +10,8 @@
 			<aside class="col-sm-4 sidebar sidebar-right">
 
 				<ul class="nav text-right nav-side">
-					<li class="active"><a href="#ui">UI design</a></li>
-					<li><a href="#frontend">Frontend development</a></li>
-					<li><a href="#backend">Backend development</a></li>
+					<li class="active"><a href="#ui">Aplication development</a></li>
+					<li><a href="#backend">Web development</a></li>
 					<li><a href="#projects">Side projects</a></li>
 				</ul>
 
