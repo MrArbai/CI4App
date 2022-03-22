@@ -34,8 +34,8 @@ $routes->setAutoRoute(true);
 
 
 $routes->get('/', 'Forpolio::index');
-$routes->get('/komik/create','komik::create');
-$routes->delete('/komik/(:num)','komik::delete/$1');
+$routes->get('/komik/create', 'komik::create');
+$routes->delete('/komik/detail/(:num)', 'komik::delete/$1');
 $routes->get('/komik/detail/(:any)', 'komik::detail/$1');
 
 /*

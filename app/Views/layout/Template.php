@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 
     <link rel="stylesheet" href="/css/style.css">
 
@@ -31,18 +31,18 @@
     -->
 
     <script>
-        function previewimg(){
-            const a = document
-            const sampul = document.queryselector('#sampul');
-            const sampullebel = document.queryselector('.custom-file-input');
-            const imgpreview = document.queryselector('.img-preview');
-    
-            sampullebel.textcontent =sampul.files[0].name;
-    
-            const filesampul = new filereader();
-            filesampul.readasdataurl(sampul.files[0]);
-    
-            filesampul.onload = function(e){
+        function previewimg() {
+
+            const sampul = document.getElementById('#sampul');
+            const sampullebel = document.querySelector('.custom-file-input');
+            const imgpreview = document.querySelector('.img-preview');
+
+            sampullebel.textContent = sampul.files[0].name;
+
+            const filesampul = new FileReader();
+            filesampul.readAsDataURL(sampul.files[0]);
+
+            filesampul.onload = function(e) {
                 imgpreview.src = e.target.result;
             }
         }
@@ -50,4 +50,3 @@
 </body>
 
 </html>
-
