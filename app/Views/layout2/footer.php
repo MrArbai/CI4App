@@ -7,7 +7,7 @@
                     <p>+62 812 684 106 54<br>
                         <a href="mailto:#">MrArbai4@gmail.com</a><br>
                         <br>
-                        234 Hidden Pond Road, Ashland City, TN 37015
+                        Jln. Dalang 1 No. 13
                     </p>
                 </div>
             </div>
@@ -31,7 +31,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, nihil natus explicabo ipsum quia iste aliquid repellat eveniet velit ipsa sunt libero sed aperiam id soluta officia asperiores adipisci maxime!</p>
                 </div>
             </div>
-<!-- <iframe
+            <!-- <iframe
   width="600"
   height="450"
   style="border:0"
@@ -46,7 +46,7 @@
                     <p>+62 812 684 106 54<br>
                         <a href="mailto:#">MrArbai4@gmail.com</a><br>
                         <br>
-                        234 Hidden Pond Road, Ashland City, TN 37015
+                        Jln. Dalang 1 No. 13
                     </p>
                 </div>
             </div>
@@ -61,15 +61,14 @@
 
             <div class="col-md-6 widget">
                 <div class="widget-body">
-                    <p>234 Hidden Pond Road, Ashland City, TN 37015 </p>
+                    <p>Jln. Dalang 1 No. 13 </p>
                 </div>
             </div>
 
             <div class="col-md-6 widget">
                 <div class="widget-body">
                     <p class="text-right">
-                        Copyright &copy; 2014, Your awesome name here<br>
-                        Design: <a href="http://www.gettemplate.com" rel="designer">Initio by GetTemplate</a> </p>
+                        Design: Arba'i </p>
                 </div>
             </div>
 
