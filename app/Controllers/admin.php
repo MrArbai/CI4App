@@ -78,7 +78,8 @@ class Admin extends Controller {
 			$_SESSION['username_belajar']=$session_username;
 			if($kd_wil=="kab")
 			{
-				echo "<meta http-equiv='refresh' content='0; url=".base_url()."index.php/superadmin'>";
+				return view()
+				// echo "<meta http-equiv='refresh' content='0; url=".base_url()."index.php/superadmin'>";
 			}
 			else if($kd_wil=="kec")
 			{
