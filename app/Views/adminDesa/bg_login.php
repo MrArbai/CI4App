@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <title>Administrator Log In</title>
-    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href=" /css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body><br /><br /><br /><br /><br />
