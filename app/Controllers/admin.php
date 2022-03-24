@@ -21,7 +21,7 @@ class Admin extends Controller {
 		$kd_wil=$pecah[3];
 			if($kd_wil=="kab")
 			{
-				echo "<meta http-equiv='refresh' content='0; url=".base_url()."index.php/superadmin'>";
+				return view('adminDesa/bg_atas');
 			}
 			else if($kd_wil=="kec")
 			{
